@@ -28,3 +28,7 @@
 #gate-form .newsletter-option{display:flex;align-items:flex-start;gap:10px;line-height:1.5;font-weight:500;margin-top:16px;cursor:pointer}.newsletter-option input{width:20px;height:20px;flex:0 0 20px;margin:0;accent-color:var(--wine)}
 
 .photo-mount{border-radius:3px;cursor:pointer}.photo-mount:hover #selected-title{text-decoration:underline;text-underline-offset:4px}.photo-mount:focus-visible{outline:3px solid var(--wine);outline-offset:6px}
+
+/* Reserve room for the full original drawing instead of hanging it off the card. */
+.selected-view .personality-sticker{position:relative;display:block;inset:auto;width:140px;max-width:100%;height:175px;object-fit:contain;object-position:center;margin:4px auto 14px;transform:rotate(3deg)}
+@media(max-width:540px){.selected-view .personality-sticker{width:128px;height:160px;margin:4px auto 12px}}
