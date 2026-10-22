@@ -1,0 +1,46 @@
+{
+  "key": "strategy",
+  "label": "STRATEGY",
+  "subtitle": "4 FIELD GUIDES",
+  "number": 2,
+  "action": "Open the library",
+  "sceneLabels": [
+    "STRATEGY",
+    "FIELD GUIDES"
+  ],
+  "status": "curated",
+  "items": [
+    {
+      "id": "guide-03",
+      "title": "How to Build a Loop",
+      "description": "Turn repeat work into a business loop that keeps moving when you step away.",
+      "image": "/assets/cards/guide-03.svg",
+      "imageAlt": "Title card: How to Build a Loop",
+      "url": "https://library.strategically-lazy.com/guides/how-to-build-a-loop"
+    },
+    {
+      "id": "guide-06",
+      "title": "How to Make Better Decisions With AI",
+      "description": "Surface assumptions, missing signals, and trade-offs before deciding.",
+      "image": "/assets/cards/guide-06.svg",
+      "imageAlt": "Title card: How to Make Better Decisions With AI",
+      "url": "https://library.strategically-lazy.com/guides/operator-table"
+    },
+    {
+      "id": "guide-07",
+      "title": "How to Analyze YouTube Videos With AI",
+      "description": "Study videos without losing context, evidence, or permission boundaries.",
+      "image": "/assets/cards/guide-07.svg",
+      "imageAlt": "Title card: How to Analyze YouTube Videos With AI",
+      "url": "https://library.strategically-lazy.com/guides/analyze-youtube-videos-with-ai"
+    },
+    {
+      "id": "guide-09",
+      "title": "How to Use AI as a Business Coach",
+      "description": "Work through decisions and leave with one accountable next step.",
+      "image": "/assets/cards/guide-09.svg",
+      "imageAlt": "Title card: How to Use AI as a Business Coach",
+      "url": "https://library.strategically-lazy.com/guides/use-ai-as-a-business-coach"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "key": "creation",
+  "label": "CREATION",
+  "subtitle": "3 FIELD GUIDES",
+  "number": 3,
+  "action": "Open the library",
+  "sceneLabels": [
+    "CREATION",
+    "FIELD GUIDES"
+  ],
+  "status": "curated",
+  "items": [
+    {
+      "id": "guide-05",
+      "title": "How to Create a Credible Digital Product With AI",
+      "description": "Make a product people can trust while keeping proof and point of view human-led.",
+      "image": "/assets/cards/guide-05.svg",
+      "imageAlt": "Title card: How to Create a Credible Digital Product With AI",
+      "url": "https://library.strategically-lazy.com/guides/human-led-product-field-guide"
+    },
+    {
+      "id": "guide-08",
+      "title": "How to Create an Original Website Design With AI",
+      "description": "Turn reference research into an original direction.",
+      "image": "/assets/cards/guide-08.svg",
+      "imageAlt": "Title card: How to Create an Original Website Design With AI",
+      "url": "https://library.strategically-lazy.com/guides/create-original-website-design-with-ai"
+    },
+    {
+      "id": "guide-11",
+      "title": "How to Build a Lead Magnet People Want to Use",
+      "description": "Turn one audience question into a useful tool and better signal.",
+      "image": "/assets/cards/guide-11.svg",
+      "imageAlt": "Title card: How to Build a Lead Magnet People Want to Use",
+      "url": "https://library.strategically-lazy.com/guides/build-a-lead-magnet-people-want-to-use"
+    }
+  ]
+}

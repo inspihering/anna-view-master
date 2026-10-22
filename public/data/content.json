@@ -1,0 +1,54 @@
+{
+  "key": "content",
+  "label": "CONTENT",
+  "subtitle": "5 FIELD GUIDES",
+  "number": 1,
+  "action": "Open the library",
+  "sceneLabels": [
+    "CONTENT",
+    "FIELD GUIDES"
+  ],
+  "status": "curated",
+  "items": [
+    {
+      "id": "guide-01",
+      "title": "The Instagram Saves System",
+      "description": "Turn saved posts into original content ideas.",
+      "image": "/assets/cards/guide-01.svg",
+      "imageAlt": "Title card: The Instagram Saves System",
+      "url": "https://library.strategically-lazy.com/guides/instagram-saves-system"
+    },
+    {
+      "id": "guide-02",
+      "title": "The 30-Day Facebook Page System",
+      "description": "Plan a month of useful Facebook content without a daily burden.",
+      "image": "/assets/cards/guide-02.svg",
+      "imageAlt": "Title card: The 30-Day Facebook Page System",
+      "url": "https://library.strategically-lazy.com/guides/facebook-page-system"
+    },
+    {
+      "id": "guide-04",
+      "title": "The Carousel System",
+      "description": "Build useful carousels with a repeatable process and intact judgment.",
+      "image": "/assets/cards/guide-04.svg",
+      "imageAlt": "Title card: The Carousel System",
+      "url": "https://library.strategically-lazy.com/guides/carousel-system"
+    },
+    {
+      "id": "guide-10",
+      "title": "How to Make LinkedIn Content That Still Sounds Like You",
+      "description": "Publish from real expertise while keeping your voice.",
+      "image": "/assets/cards/guide-10.svg",
+      "imageAlt": "Title card: How to Make LinkedIn Content That Still Sounds Like You",
+      "url": "https://library.strategically-lazy.com/guides/make-linkedin-content-that-sounds-like-you"
+    },
+    {
+      "id": "guide-12",
+      "title": "How to Turn One Voice Note Into a Week of Content",
+      "description": "Extend one real idea without adding more content hours.",
+      "image": "/assets/cards/guide-12.svg",
+      "imageAlt": "Title card: How to Turn One Voice Note Into a Week of Content",
+      "url": "https://library.strategically-lazy.com/guides/turn-one-voice-note-into-a-week-of-content"
+    }
+  ]
+}
