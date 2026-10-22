@@ -3,7 +3,7 @@ const $ = selector => document.querySelector(selector);
 const collections=['content','strategy','creation'].map(key=>({key,items:[]}));
 let active=collections[0], step=0, start=0, busy=false, queuedReel=null, queuedDirection=0;
 const positions={content:0,strategy:0,creation:0};
-const illustrations=['big-vision-energy','coffee-confetti','deep-work','celebrate-princess-dress','coffee-first','champagne-cheers'].map(name=>`/assets/kristina/${name}.png`);
+const illustrations=['big-vision-energy','coffee-confetti','deep-work','celebrate-princess-dress','coffee-first','champagne-cheers'].map(name=>`/assets/kristina/${name}.png?v=complete-original`);
 let illustrationIndex=-1,lastIllustratedGuide=null;
 // Rotate on a genuine guide change, including wraparound and remembered reel positions.
 function updateIllustration(index){
