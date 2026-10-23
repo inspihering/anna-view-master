@@ -32,3 +32,6 @@
 /* Reserve room for the full original drawing instead of hanging it off the card. */
 .selected-view .personality-sticker{position:relative;display:block;inset:auto;width:140px;max-width:100%;height:175px;object-fit:contain;object-position:center;margin:4px auto 14px;transform:rotate(3deg)}
 @media(max-width:540px){.selected-view .personality-sticker{width:128px;height:160px;margin:4px auto 12px}}
+
+/* Keep the phone instruction above the spare disks, never across their faces. */
+@media(max-width:540px){.reel-library{margin-top:48px}.choose-label{top:-32px;bottom:auto;left:-9%;width:145%;font-size:18px;line-height:1.2;text-align:center;transform:none;white-space:nowrap}}
