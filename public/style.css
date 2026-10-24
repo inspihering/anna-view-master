@@ -35,3 +35,8 @@
 
 /* Keep the phone instruction above the spare disks, never across their faces. */
 @media(max-width:540px){.reel-library{margin-top:48px}.choose-label{top:-32px;bottom:auto;left:-9%;width:145%;font-size:18px;line-height:1.2;text-align:center;transform:none;white-space:nowrap}}
+
+/* The annotation sits above its target at every breakpoint. */
+.choose-label{top:-48px;bottom:auto;left:0;width:90%;text-align:center;transform:none;white-space:nowrap;line-height:1.2}.choose-label svg{display:inline-block;width:28px;height:32px;vertical-align:top;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+@media(min-width:541px) and (max-width:900px){.choose-label{width:110%}}
+@media(max-width:540px){.choose-label{top:-42px;left:-9%;width:145%}.choose-label svg{width:22px;height:28px}}
