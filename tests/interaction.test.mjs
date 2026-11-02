@@ -8,7 +8,7 @@ class Element{
  addEventListener(k,v){this.listeners[k]=v;} append(v){this.children.push(v);} replaceChildren(...v){this.children=v;this.lastChild=v.at(-1);} focus(){document.activeElement=this;}
  fire(type,data={}){return this.listeners[type]?.({target:this,preventDefault(){},...data});}
 }
-test('lever, reverse, keyboard, touch, all 12 resource frames and reel memory and reduced-motion preference',async()=>{
+test('lever, reverse, keyboard, touch, all 13 resource frames and reel memory and reduced-motion preference',async()=>{
  const nodes=new Map();const get=k=>{if(!nodes.has(k))nodes.set(k,new Element());return nodes.get(k);};
  const tabs=['content','strategy','creation'].map(k=>{const e=new Element();e.dataset.reel=k;return e;});
  const slots=Array.from({length:14},()=>new Element());
@@ -40,3 +40,4 @@ test('lever, reverse, keyboard, touch, all 12 resource frames and reel memory an
  media.change({matches:false});get('#advance').fire('click');assert.equal(get('#advance').attributes['aria-disabled'],'true');await new Promise(r=>setTimeout(r,570));assert.equal(get('#advance').attributes['aria-disabled'],undefined);
  }finally{globalThis.fetch=originalFetch;}
 });
+

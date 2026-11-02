@@ -1,7 +1,7 @@
 {
   "key": "strategy",
   "label": "STRATEGY",
-  "subtitle": "4 FIELD GUIDES",
+  "subtitle": "5 FIELD GUIDES",
   "number": 2,
   "action": "Open the library",
   "sceneLabels": [
@@ -41,6 +41,14 @@
       "image": "/assets/cards/guide-09.svg",
       "imageAlt": "Title card: How to Use AI as a Business Coach",
       "url": "https://library.strategically-lazy.com/guides/use-ai-as-a-business-coach"
+    },
+    {
+      "id": "guide-13",
+      "title": "Find the projects buried in your chats",
+      "description": "Recover the projects you have talked through and keep one private list of where you left off.",
+      "image": "/assets/cards/guide-13.svg",
+      "imageAlt": "Title card: Find the projects buried in your chats",
+      "url": "https://library.strategically-lazy.com/guides/project-recovery"
     }
   ]
 }
